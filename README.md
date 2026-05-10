@@ -23,6 +23,7 @@ BepInEx/Translation/es/Text/
 ## Notas
 - Se eliminaron tildes para evitar problemas de fuentes del juego.
 - Algunos textos pueden variar segun futuras actualizaciones.
+- Esta traducción aún no está terminada al 100%, pero ayuda en gran parte.
 
 ## Creditos
 Creado por MyFiurerJose (José Pérez)
