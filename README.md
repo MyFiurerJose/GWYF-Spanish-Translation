@@ -1,13 +1,12 @@
-# Gamble With Your Friends - Traduccion al Español
+# Gamble With Your Friends - Traduccion Espanol
 
-Traduccion fanmade al español para Gamble With Your Friends utilizando XUnity.AutoTranslator.
+Traduccion fanmade al español para Gamble With Your Friends.
 
 ## Caracteristicas
-- Traduccion de menus y UI
-- Terminos adaptados al español gaming
-- Compatible con Thunderstore
-- Optimizada para XUnity.AutoTranslator
-- Traduccion compacta para evitar problemas visuales
+- Traduccion completa de menus y UI
+- Adaptacion gaming al español
+- Compatible con XUnity.AutoTranslator
+- Optimizada para Thunderstore
 
 ## Requisitos
 - BepInEx
@@ -16,14 +15,7 @@ Traduccion fanmade al español para Gamble With Your Friends utilizando XUnity.A
 ## Instalacion
 Instalar mediante Thunderstore Mod Manager o r2modman.
 
-O manualmente colocando la carpeta Translation dentro de:
-
-BepInEx/Translation/es/Text/
-
 ## Notas
-- Se eliminaron tildes para evitar problemas de fuentes del juego.
-- Algunos textos pueden variar segun futuras actualizaciones.
+- Se eliminaron tildes para evitar problemas de fuentes.
+- Algunos textos pueden cambiar segun versiones futuras del juego.
 - Esta traducción aún no está terminada al 100%, pero ayuda en gran parte.
-
-## Creditos
-Creado por MyFiurerJose (José Pérez)

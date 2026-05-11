@@ -1,0 +1,779 @@
+﻿###RTLC###
+r:<noparse></noparse>(.+)=<noparse></noparse>$1
+
+##INICIO Y CARGA##
+Are you feeling lucky?=¿Te sientes con suerte?
+yes=si
+no=no
+Unlucky :( Closing the game now!=<size=80%>¡Mala suerte! :(\n\nCerrando el juego...</size>
+Lucky! You can play the game.=<size=80%>¡Suerte! Puedes jugar.</size>
+INFO TEXT=INFO
+Shuffling the deck...=Barajando el mazo...
+Stacking the chips...=Apilando fichas...
+Rolling the dice...=Lanzando dados...
+Deciding on something very important...=Decidiendo algo muy importante...
+Dealing the cards...=Repartiendo cartas...
+All bets are in!=¡Apuestas cerradas!
+
+##MENU PRINCIPAL##
+HOST game=CREAR partida
+SETTINGS=AJUSTES
+CREDITS=CREDITOS
+QUIT=SALIR
+Are you sure you want to quit?=¿Seguro que quieres salir?
+Yes, quit=Si, salir
+No, stay=No, quedar
+Yes=Si
+No=No
+GET HELP (GAMBLE HOTLINE)=AYUDA (LINEA DE LUDOPATIA)
+Connect=Conectar
+You can use DISCORD to Invite and Join Friends!=¡Usa DISCORD para invitar amigos!
+
+##OBJETOS Y HERRAMIENTAS##
+Flashlight=Linterna
+Lighter=Encendedor
+Cup=Copa
+Dice=Dado
+Coin=Moneda
+Card=Carta
+Beer=Cerveza
+Wine=Vino
+Phone=Telefono
+Tablet=Tablet
+Hand=Mano
+
+##DIALOGOS Y TEXTOS DE MISION##
+r:"^Day ([\s\S]+?)$"=Dia $1
+r:"^Quota: ([\s\S]+?)$"=Cuota: $1
+r:"^Balance: ([\s\S]+?)$"=Saldo: $1
+r:"^Goal: ([\s\S]+?)$"=Meta: $1
+Press E to interact=Presiona E para interactuar
+Inventory full=Inventario lleno
+Empty=Vacio
+Use=Usar
+Drop=Soltar
+Take=Tomar
+
+## AJUSTES ##
+General=General
+General Settings=Ajustes Generales
+Reset To Default=Restablecer
+Reset to default?=¿Restablecer ajustes?
+Reset to defaults=<size=80%>Restablecer valores</size>
+Mouse Settings=Ajustes Raton
+Mouse Sensitivity=Sensibilidad Raton
+Mouse X=Raton X
+Mouse Y=Raton Y
+Invert X=Invertir X
+Invert Y=Invertir Y
+Controller Settings=Ajustes Mando
+Controller Sensitivity=Sensibilidad Mando
+Lobby Settings=Ajustes Lobby
+Lobby Mode=Modo Lobby
+Open To Friends=Solo Amigos
+Invite Only=Solo Invitacion
+
+Display=Pantalla
+Display Settings=Ajustes Pantalla
+Fullscreen=Pantalla Completa
+Windowed=Ventana
+Borderless Fullscreen=Ventana sin bordes
+Resolution=Resolucion
+VSync=VSync
+Maximum Framerate=FPS Maximos
+Unlimited=Ilimitado
+Anisotropic Filtering=Filtrado Anisotropico
+Off=Off
+On=On
+
+Graphics=Graficos
+Graphics Settings=Ajustes Graficos
+Quality=Calidad
+High=Alta
+Medium=Media
+Low=Baja
+LOW=BAJA
+HDR=HDR
+Visual Settings=Ajustes Visuales
+FOV=FOV (Campo de vision)
+Brightness=Brillo
+Film Grain=Grano de pelicula
+Visual Effects=Efectos Visuales
+
+Volume Settings=Ajustes de Volumen
+Master Volume=Volumen Maestro
+Music=Musica
+Sound Effects=Efectos (SFX)
+Proximity Chat=Chat de proximidad
+Audio Input=Entrada de audio
+Microphone Device=Microfono
+System Default=<size=75%>Predeterminado sistema</size>
+Proximity Voice Chat Mode=Modo de chat de voz
+Voice Activation=Activacion por voz
+Push To Talk=<size=95%>Presionar para hablar</size>
+Input Volume=Volumen de entrada
+
+Input=Controles
+Input Bindings=Asignacion de teclas
+Interact=Interactuar
+Crouch=Agacharse
+Jump=Saltar
+Sprint=Correr
+Zoom=Zoom
+Control=Ctrl
+Space=Espacio
+Shift=Shift
+Left Button=Click Izq.
+Right Button=Click Der.
+Middle Button=Click Rueda
+Listening...=Escuchando...
+Move Backward=Atras
+Move Forward=Adelante
+Move Left=Izquierda
+Move Right=Derecha
+
+Accessibility=Accesibilidad
+Camera Bobbing=Movimiento camara
+Camera Smoothing=Suavizado camara
+Camera Smoothing Amount=Intensidad suavizado
+Camera Settings=Ajustes Camara
+Casino Helper=Asistente de Casino
+EmoteWheelMode=Modo Rueda Emotes
+
+## CREDITOS ##
+Credits=Creditos
+COLLABSTACKS (DEV TEAM)=COLLABSTACKS (EQUIPO DEV)
+Published By TENSTACK=Publicado por TENSTACK
+Kiwick Studios (Art Support)=Kiwick Studios (Arte)
+SPECIAL THANKS=AGRADECIMIENTOS
+PLAYTESTERS=TESTERS
+Thanks to all of our playtesters in our Discord Community! <3=¡Gracias a los testers de Discord! <3
+ZyrusThePunisher | Director=ZyrusThePunisher | Director
+Made with Unity Engine & FMOD Studio by Firelight Technologies Pty Ltd.=<size=80%>Hecho con Unity y FMOD Studio por Firelight Technologies.</size>
+THNX FOR PLAYING! (TENSTACK, 2026)=¡GRACIAS POR JUGAR! (TENSTACK, 2026)
+
+## CREAR JUEGO ##
+Are you the friend with the best computer and network connection?=¿Eres el amigo con mejor PC e internet?
+Yes, I am=Si, soy yo
+No, cancel=No, cancelar
+Empty Slot=Ranura vacia
+Money=Dinero
+Quota=Cuota
+Tickets=Tickets
+Days=Dias
+New Game=Nueva Partida
+r:"^Are you sure you want to delete the save from (.+?)\? This action cannot be undone\.$"=¿Borrar partida de $1? Esto no se puede deshacer.
+Yes, delete=Si, borrar
+Cancel=Cancelar
+Dice=Dados
+ Shake= Agitar
+
+## CITAS ##
+"Alea Iacta Est"\n\n-Julius Caesar="La suerte esta echada"\n\n-Julio Cesar
+"All that clatters is not chips"\n\n-Shakespeare ="No todo lo que brilla son fichas"\n\n-Shakespeare 
+"All the world's a casino, and all the men and women merely gamblers"\n\n-Shakespeare="El mundo es un casino y todos somos apostadores"\n\n-Shakespeare
+"Are you getting rich, son?"\n\n-Dad="¿Te estas haciendo rico, hijo?"\n\n-Papa
+"At the gambling table, there are no fathers and sons"\n\n-Chinese Proverb="En la mesa de juego no hay padres ni hijos"\n\n-Proverbio Chino
+"Behind bad luck comes Good Luck"\n\n-Unknown="Tras la mala suerte viene la buena"\n\n-Anonimo
+"Don''t come back home until you are a millionaire" -Mom="No vuelvas a casa hasta ser millonario" -Mama
+"Double or nothing"\n\n-Unknown="Doble o nada"\n\n-Anonimo
+"Eat your betting money but don't bet your eating money"\n\n-Duck Racing Proverb="Come con el dinero de apuestas, pero no apuestes el de comer"\n\n-Proverbio
+"Gamblers, gamblers, gamblers!!!"\n\n-Mr Booth="¡Apostadores, apostadores, apostadores!"\n\n-Mr. Booth
+"Gambling for 72 hours is good for you actually"\n\n-Some guy="Apostar 72 horas seguidas es sano"\n\n-Un tipo
+"Go big and never go home!"\n\n-Mr. Booth="¡Apuesta fuerte o no vuelvas!"\n\n-Mr. Booth
+"God does not play Dice. I, however, do."\n\n-Mr Booth="Dios no juega a los dados. Yo si."\n\n-Mr. Booth
+"Good luck or get f*cked"\n\n-Loan Shark="Buena suerte o estas jodido"\n\n-Prestamista
+"He's all in"\n\n-Unknown="Va con todo (All in)"\n\n-Anonimo
+"How much is your friendship worth?"\n\n-Loan Shark="¿Cuanto vale tu amistad?"\n\n-Prestamista
+"I bet, therefore I am"\n\n-Descartes="Apuesto, luego existo"\n\n-Descartes
+"I don't understand it, but i'm proud of you"\n\n-Grandma="No lo entiendo, pero estoy orgullosa"\n\n-Abuela
+"It ain't a sin if you win"\n\n-Grandpa="No es pecado si ganas"\n\n-Abuelo
+"It's not losing, it's investing"\n\n-Sketchy Guy="No es perder, es invertir"\n\n-Tipo raro
+"Luck never gives, it only lends"\n\n-Swedish Proverb="La suerte no regala, solo presta"\n\n-Proverbio Sueco
+"Risk it for the biscuit"\n\n-Cookie Monster="Arriesgate por la galleta"\n\n-Monstruo de las galletas
+"The casino always welcomes you!"\n\n-Mr. Booth="¡El casino siempre te recibe!"\n\n-Mr. Booth
+"What is the worst that could happen?"\n\n-Shredding Machine Operator="¿Que es lo peor que puede pasar?"\n\n-Operador
+"You can only lose %100 of your money, but you could win %999999"\n\n-Unknown ="Solo puedes perder el 100% de tu dinero, pero puedes ganar el 999999%"\n\n-Anonimo
+
+## PAUSA Y REPORTE ##
+Report a Bug=Reportar Error
+Title=Titulo
+Enter text...=Escribir aqui...
+Severity=Gravedad
+Minor=Menor
+Major=Mayor
+Blocker=Bloqueo
+Category=Categoria
+Other=Otro
+Multiplayer=Multijugador
+UI=Interfaz
+Performance=Rendimiento
+Gameplay=Gameplay
+Visual=Visual
+Audio=Audio
+Frequency=Frecuencia
+Once=Una vez
+Sometimes=A veces
+Always=Siempre
+What Happened=Que paso
+What was expected=Que se esperaba
+Can reproduce=Se puede repetir
+Steps to reproduce=Pasos para repetir
+Submit=Enviar
+Sending...=Enviando...
+Report submitted.=Reporte enviado.
+Unstuck=Atascado
+
+## DINERO Y HUD ##
+r:"^\$(\d+(?:\.\d+)?)K$"=$$$1K
+r:"^\$(\d+(?:\.\d+)?)M$"=$$$1M
+r:"^\$(\d+(?:\.\d+)?)B$"=$$$1B
+r:"^DAY\ ([\s\S]+?)$"=DIA $1
+r:"^Day ([\s\S]+?)$"=Dia $1
+Ping=Ping
+Emote Wheel=Rueda Emotes
+hold=mantener
+day ends ın=el dia termina en
+
+## INTERACCIONES ##
+Answer=Responder
+Bet=Apostar
+buy items=comprar objetos
+Choose=Elegir
+Equip=Equipar
+Interact=Interactuar
+Pick Up=Recoger
+Reroll Items=Cambiar objetos
+Retrieve Ball=Recuperar bola
+retrieve items=recuperar objetos
+Reveal=Revelar
+Select=Seleccionar
+Shred=Triturar
+Switch=Cambiar
+Wake Up=Despertar
+Withdraw=Retirar
+Buy Items=Comprar Objetos
+Reroll=Reroll
+
+## COSMETICOS (RESUMEN) ##
+Previous Page=<size=62%>Pagina anterior</size>
+Next Page=<size=66%>Pagina siguiente</size>
+Hats=Sombreros
+Hair=Pelo
+Mustache=Bigote
+Beard=Barba
+Neck=Cuello
+Clothing=Ropa
+Facewear=Cara
+Propeller Hat=Gorro Helice
+Baseball Cap=Gorra Basebol
+Security Hat=Gorra Seguridad
+Bunny Cap=Gorro Conejo
+Trash Hat 1=Gorro Basura 1
+Traffic Cone 1=Cono 1
+Traffic Cone 2=Cono 2
+Henchmans Hat=Gorro Secuaz
+3D Glasses=Gafas 3D
+Bandit Mask=Mascara Bandido
+Crown=Corona
+Unicorn Horn=Cuerno Unicornio
+
+## OBJETOS (ITEMS) ##
+Baseball Bat=Bate de Beisbol
+<color=red>Knock down</color> your annoying friend.=<size=200%><color=red>Noquea</color> a tu amigo pesado.</size>
+Goblin Plush=Peluche Goblin
+Microphonee=Microfono
+While active, increase <color=green>profit</color> nearby by <color=purple>singing</color>=<size=200%>Activo: aumenta <color=green>ganancia</color> cercana <color=purple>cantando</color></size>
+Insurance=Seguro
+Decrease <color=red>loss</color> amount.=<size=200%>Reduce la cantidad de <color=red>perdida</color>.</size>
+Golden Chip=Ficha de Oro
+Spend it for a single free <color=green>all-in</color>=<size=200%>Usala para un <color=green>all-in</color> gratis</size>
+Mystery Box=Caja Misteriosa
+Gives <rainb>random</rainb> item.=<size=200%>Da un objeto <rainb>aleatorio</rainb>.</size>
+Time Machine=Maquina del Tiempo
+Rolls back time.=<size=200%>Retrocede el tiempo.</size>
+Quota Gun=Pistola de Cuota
+<color=green>Pays</color> 33% of <color=red>quota</color> for each body part it shoots off=<size=200%><color=green>Paga</color> 33% de la <color=red>cuota</color> por cada miembro disparado</size>
+
+## DESAFIOS (CHALLENGES) ##
+CHALLENGE=DESAFIO
+Complete=Completado
+Big Spender=Gran Apostador
+No Bust Run=Racha sin pasar
+Lucky Streak=Racha de Suerte
+All on Red=Todo al Rojo
+Jackpot Hunter=Caza Premios
+Poker Face=Cara de Poker
+House Breaker=Quiebra Casinos
+Safe Exit=Salida Segura
+
+## HUD Y PANTALLA ##
+r:"^DAY\ ([\s\S]+?)$"=DIA $1
+r:"^Day ([\s\S]+?)$"=Dia $1
+r:"^Day\ ([\s\S]+?)\ \-\ Balance:\ ([\s\S]+?)$"=Dia $1 - Saldo: $2
+Ping=Marca
+Emote Wheel=Rueda de Emotes
+hold=mantener
+day ends ın=el dia termina en
+
+## INTERACCIONES ##
+Answer=Responder
+buy items=comprar objetos
+Choose=Elegir
+Equip=Equipar
+Pick Up=Recoger
+Reroll Items=Cambiar objetos
+Reset Score=Reset Puntos
+Retrieve Ball=Recuperar bola
+retrieve items=recuperar objetos
+Reveal=Revelar
+Select=Seleccionar
+Shred=Triturar
+Switch=Cambiar
+to Interact=para interactuar
+Packing Box=Caja de embalaje
+Wake Up=Despertar
+Withdraw=Retirar
+Unselect=Deseleccionar
+
+Pick up= Recoger
+Retrieve Items= Recuperar objetos
+r:"^ Buy (\d+) Item\(s\) \((\d+) tickets\)$"= Comprar objetos: $1 (tickets: $2)
+
+Press =Pulsa 
+to buy a random cosmetic= para comprar cosmetico al azar
+to Buy Items= para comprar objetos
+to deselect= para deseleccionar
+to open/close door= para abrir/cerrar puerta
+to pickup= para recoger
+to select= para seleccionar
+to set color= para fijar color
+
+Hold =Manten 
+to Interact= para interactuar
+to pick up= para recoger
+Use= Usar
+
+## EMOCIONES ##
+Wave=Saludar
+Salute=Saludo militar
+Flip Off=Peineta
+Absolute Cinema=Cine Absoluto
+Ragdoll=Ragdoll
+Smoke=Fumar
+Dance=Bailar
+Clap=Aplaudir
+
+## ARMARIO DE COSMETICOS ##
+Hats=Sombreros
+Hair=Pelo
+Mustache=Bigote
+Beard=Barba
+Neck=Cuello
+Clothing=Ropa
+Facewear=Accesorio Cara
+
+Propeller Hat=Gorro Helice
+Baseball Cap=Gorra Beisbol
+Security Hat=Gorra Seguridad
+Bunny Cap=Gorro Conejo
+Trash Hat 1=Gorro Basura 1
+Traffic Cone 1=Cono 1
+Traffic Cone 2=Cono 2
+Henchmans Hat=Gorro Secuaz
+Fancy Attire=Traje Elegante
+Security Guard=Guardia Seguridad
+Glasses Windsor=Gafas Windsor
+3D Glasses=Gafas 3D
+Bandit Mask=Mascara Bandido
+Beret 1=Boina 1
+Crown=Corona
+Deerstalker 1=Gorro Detective
+Digital Resurrection=Resurreccion Digital
+Dog Collar 1=Collar Perro
+Unicorn Horn=Cuerno Unicornio
+
+## ITEMS DETALLADOS ##
+Throw= Lanzar
+Baseball Bat=Bate de Beisbol
+Swing= Batir
+Bounce= Rebotar
+Goblin Plush=Peluche Goblin
+Squeeze= Apretar
+Sledding Frog=Rana en trineo
+Checkers Piece=Ficha Damas
+Chess Piece=Pieza Ajedrez
+Friendly Marshmallow=Malvavisco amigo
+Activate= Activar
+Insurance=Seguro
+Decrease <color=red>loss</color> amount.=<size=200%>Reduce la <color=red>perdida</color>.</size>
+Angel's Reel=Carrete Angelical
+Golden Chip=Ficha de Oro
+Insert to Keypad= Insertar en teclado
+Mystery Box=Caja Misteriosa
+Gives <rainb>random</rainb> item.=<size=200%>Da objeto <rainb>aleatorio</rainb>.</size>
+Holy Statue=Estatua Santa
+Raise= Alzar
+Camera=Camara
+Capture= Capturar
+Taser=Taser
+Override Keypad= Sobrecargar teclado
+Stake Holder=Accionista
+Time Machine=Maquina Tiempo
+Rewind= Rebobinar
+Quota Gun=Pistola Cuota
+Shoot= Disparar
+Devil's Reel=Carrete Diabolico
+
+## MEJORAS (UPGRADES) ##
+UPGRADES=MEJORAS
+Empowers held items=Potencia objetos equipados
+Increases profit=Aumenta ganancias
+
+## JUEGOS DE CASINO ##
+Emergency Only=Solo Emergencias
+Floor 1=Piso 1
+Floor 2=Piso 2
+Floor 3=Piso 3
+Floor 4=Piso 4
+Boss=Jefe
+Total Bet=Apuesta Total
+Reset Bets=Limpiar Apuestas
+Play=Jugar
+MIN=MIN
+All=MAX
+r:"^Min: \$(.+?)$"=Min: $$$1
+r:"^Max Bet: \$(.+?)$"=Max: $$$1
+Invalid amount=Cantidad invalida
+Cash-out=Cobrar
+Pay=Pagar
+
+Roulette=Ruleta
+1st 12=1ra 12
+2nd 12=2da 12
+3rd 12=3ra 12
+Even=Par
+Red=Rojo
+Black=Negro
+Odd=Impar
+
+Blackjack=Blackjack
+DOUBLE=DOBLAR
+STAND=PLANTARSE
+HIT=CARTA
+
+Street Craps=Dados Callejeros
+Lose on:=Pierde con:
+Win on:=Gana con:
+REFUND=DEVOLUCION
+
+Mine Sweeper=Busca Minas
+Mines=Minas
+1 Mines=1 Mina
+r:"^([\s\S]+?) Mines$"=$1 Minas
+
+1P Poker=Poker 1P
+to lock/unlock= para fijar/soltar
+Playing Card=Carta
+ to lock/unlock= para bloquear/desbloquear
+
+Baccarat=Baccarat
+Banker=Banca
+Banker Button=Boton Banca
+TIE=EMPATE
+Tie Button=Boton Empate
+Player=Jugador
+Player Button=Boton Jugador
+
+##BOSS##
+Pay \nyour \ndebt\r\n=<size=45%>Paga\ntu\ndeuda</size>
+PAY DEBT BUTTON=BOTON PAGAR DEUDA
+PAY YOUR DEBT=PAGA TU DEUDA
+Double \nor\nnothing\r\n\r\n=<size=45%>Doble\no\nnada</size>
+PLAY=JUGAR
+Let it ride!=¡Que siga!
+ATM=Cajero
+Withdraw=Retirar
+
+A GAME MADE BY=UN JUEGO DE
+publıshed by tenstack=publicado por tenstack
+KIWICK STUDIOS (ART SUPPORT)=KIWICK STUDIOS (ARTE)
+MADE WITH=HECHO CON
+\nThe leap \nof faith=\nEl salto \nde fe
+THE END=FIN
+THANKS FOR PLAYING <3=GRACIAS POR JUGAR <3
+Follow US!=¡Siguenos!
+
+##FIN DEL DIA##
+r:"^DAY (.+?) ENDED$"=DIA $1 FINALIZADO
+r:"^Stats for day ([\s\S]+?)$"=Estadisticas dia $1
+skip=<size=75%>saltar</size>
+DAY ENDED.=DIA TERMINADO.
+GO HOME.=VE A CASA.
+Hold=<size=80%>Mantener</size>
+to continue=<size=65%>para continuar</size>
+r:"^Quota Excess Reward \(([\s\S]+?)%\)$"=<size=85%>Bonus exceso cuota ($1%)</size>
+Money collected=Dinero reunido
+GET IN!!!!=<size=80%>¡¡¡ENTRA\nAQUI!!!</size>
+Game Complete=Juego Completado
+Game Over=Fin de la partida
+GAME OVER=GAME OVER
+
+##VARIOS##
+- 1 Ticket=- 1 Ticket
++ 1 Ticket=+ 1 Ticket
+<WAVE>COIN FLIP, ON FAIL IT CLOSES THE GAME!!!</>=<WAVE>LANZA MONEDA: ¡SI PIERDES SE CIERRA EL JUEGO!</>
+0 TICKETS=0 TICKETS
+0/0 losses=0/0 derrotas
+0/0 wins=0/0 victorias
+1 Ticket=1 Ticket
+2 to 1=2 a 1
+Access Denied: You do not own this game.=Acceso denegado.
+ACCESSIBILITY SETTINGS=AJUSTES ACCESIBILIDAD
+Achievement Title=Titulo del Logro
+Adorable, chunky cat.=Gato gordito.
+amount to invest=cantidad a invertir
+and win=y gana
+Apply Random Cosmetic=Aplicar cosmetico al azar
+Apply Selected Preset=Aplicar preajuste
+Aspect Ratio=Relacion de aspecto
+At the end of the line.=Al final de la linea.
+Auto Setup=Autoajuste
+AvG. WR=WR Promedio
+BACK=ATRAS
+Balance=Saldo
+Bank Settings=Ajustes de banco
+Bank/Bank Tier=Banco/Nivel de banco
+Bankrupt=Bancarrota
+Base Item=Objeto base
+Basketball=Baloncesto
+Bet Slider=Barra de apuesta
+Blackjack Cheatsheet=Chuleta de Blackjack
+Blackjack Dealer=Crupier de Blackjack
+Bongo=Bongo
+Border Settings=Ajustes de borde
+BROWSE GAMES=VER JUEGOS
+change=cambiar
+Chat Log...=Log de chat...
+Clean=Limpiar
+Clear All Challenges=Limpiar desafios
+Close=Cerrar
+Close & Ignore=Cerrar e ignorar
+Cloud Save: Available=Nube: Disponible
+Cloud Save: None=Nube: Ninguna
+Clutching Settings=Ajustes de remontada
+Coin Flip=Cara o cruz
+Color Selection=Seleccion de color
+connect=conectar
+Connect Discord=Conectar Discord
+CONTRIBUTIONS=CONTRIBUCIONES
+Copied to clipboard=Copiado al portapapeles
+Cosmetic=Cosmetico
+Craps=Dados
+Crossy Road=Crossy Road
+Current progress (0-1)=Progreso actual (0-1)
+Debt Bag=Bolsa de deuda
+DEF=DEF
+Default=Predeterminado
+Delete=Borrar
+Deposit=Depositar
+Description=Descripcion
+Difficulty & Rewards=Dificultad y Premios
+Discord Connected=Discord Conectado
+Double  or nothing=Doble o nada
+Drink buff=Efecto de bebida
+Drinking=Bebiendo
+EARN MONEY=GANAR DINERO
+Enable=Activar
+exclusive fullscreen=pantalla completa exclusiva
+Failed:=Fallo:
+FILTER=FILTRO
+Four of a Kind=Pocker (4 iguales)
+FRIENDS=AMIGOS
+Full House=Full House
+Fullscreen Windowed=Ventana sin bordes
+Gacha Machine=Maquina Gacha
+gamble=apostar
+Gambling=Apuestas
+GAMES=JUEGOS
+heads or taıls?=¿cara o cruz?
+Hide Player=Ocultar jugador
+High Card=Carta alta
+In Main Menu=En el menu principal
+Invest=Invertir
+Item=Objeto
+Jackpot!=¡Jackpot!
+JOIN=UNIRSE
+Lever=Palanca
+Lil dancing rat, that's it.=Rata bailarina. Eso es todo.
+LOCKED DOOR $10K TO PLAY=PUERTA CERRADA $10K PARA JUGAR
+Market Fluctuation=Fluctuacion de mercado
+Max Bet:=Apuesta Max:
+Maxwell=Maxwell
+Merchant=Mercader
+Middle Click=Click Central
+MIN $500 MAX $5.000=MIN $1 MAX $2
+MISC.=VARIOS
+mode=modo
+Modifying...=Modificando...
+New Cosmetic=Nuevo Cosmetico
+No conditions=Sin condiciones
+NO MOUTH=SIN BOCA
+not allowed=no permitido
+Not Enough Money=Dinero insuficiente
+Not enough tickets=Tickets insuficientes
+Not playing=Sin jugar
+One Pair=Pareja
+Option A=Opcion A
+Overall quality level: Low, Medium, or High=Calidad: Baja, Media o Alta
+PLAY OFFLINE=JUGAR OFFLINE
+playtesters=testers
+Poker=Poker
+Prices=Precios
+Profit=Ganancia
+Public=Publico
+PublIC LOBBIES=LOBBIES PUBLICOS
+PushToTalk=Presionar para hablar
+Quality Settings=Ajustes de calidad
+quit=salir
+Quota (100%)=Cuota (100%)
+r:"^([\s\S]+?)/([\s\S]+?)\ consecutive\ losses$"=$1/$2 derrotas seguidas
+r:"^([\s\S]+?)/([\s\S]+?)\ consecutive\ wins$"=$1/$2 victorias seguidas
+r:"^([\s\S]+?)/([\s\S]+?)\ losses$"=$1/$2 derrotas
+r:"^([\s\S]+?)/([\s\S]+?)\ wins$"=$1/$2 victorias
+r:"^([\s\S]+?)\ Hz$"=$1 Hz
+r:"^([\s\S]+?)\ x\ multiplier\ ([\s\S]+?)$"=$1 x multipl. $2
+r:"^([\s\S]+?)m\ ([\s\S]+?)s$"=$1m $2s
+r:"^([\s\S]+?)x\ multiplier$"=multiplicador $1x
+r:"^(\d+(?:[\.,]\d+)?)s$"=$1s
+r:"^(\d+(?:[\.,]\d+)?)s\ remaining$"=quedan $1s
+r:"^\(No\ challenges\ for\ floor\ ([\s\S]+?)\)$"=(Sin desafios para el piso $1)
+r:"^Active:\ ([\s\S]+?)$"=Activo: $1
+r:"^Bet\ ([\s\S]+?)/([\s\S]+?)$"=Apuesta $1/$2
+r:"^Card_([\s\S]+?)_([\s\S]+?)$"=Carta_$1_$2
+r:"^connect_lobby\ ([\s\S]+?)$"=conectar_lobby $1
+r:"^FLOOR\ ([\s\S]+?)$"=PISO $1
+r:"^Home\ \-\ Balance:\ ([\s\S]+?)\ \|\ Day\ ([\s\S]+?)$"=Inicio - Saldo: $1 | Dia $2
+r:"^ID\ ([\s\S]+?)$"=ID $1
+r:"^Letting\ it\ ride\ \-\ ([\s\S]+?)/([\s\S]+?)\ \(([\s\S]+?)%\)$"=Siguiendo - $1/$2 ($3%)
+r:"^MIN ([\s\S]+?)\nMAX ([\s\S]+?)$"=MIN $1\nMAX $2
+r:"^Min: ([\s\S]+?) \nMax: ([\s\S]+?)$"=Min: $1 \nMax: $2
+r:"^Payout\ ([\s\S]+?)/([\s\S]+?)$"=Pago $1/$2
+r:"^Player\ ([\s\S]+?)$"=Jugador $1
+r:"^Profit\ ([\s\S]+?)/([\s\S]+?)$"=Ganancia $1/$2
+r:"^Rank\ ([\s\S]+?)$"=Rango $1
+r:"^Unlocked:\ ([\s\S]+?)/([\s\S]+?)$"=Desbloqueado: $1/$2
+r:"^Version: ([\s\S]+?)$"=Version: $1
+r:"^Win\ with\ duck\ \#([\s\S]+?)$"=Gana con pato #$1
+r:"^Win\ with\ hand\ value\ <\ ([\s\S]+?)$"=Gana con mano < $1
+r:"^Win\ with\ hand\ value\ >=\ ([\s\S]+?)$"=Gana con mano >= $1
+r:"^Win\ with\ hand\ value\ between\ ([\s\S]+?)\ and\ ([\s\S]+?)$"=Gana con mano entre $1 y $2
+Radio=Radio
+Recommended=Recomendado
+Reduces loss=Reduce perdidas
+Required fields=Campos obligatorios
+Reset All Unlocks=Resetear desbloqueos
+Reset Customization=Resetear apariencia
+Result Settings=Ajustes de resultado
+Return Threshold=Umbral de retorno
+return to menu=volver al menu
+'s Lobby= - Lobby
+Save 1=Partida 1
+Seed=Semilla
+SELECT=ELEGIR
+Select=Elegir
+Sell=Vender
+SEND BUG REPORT=ENVIAR REPORTE DE ERROR
+service & supply=servicio y suministros
+settings=ajustes
+SFX References=Referencias SFX
+SHOP & UPGRADES=TIENDA Y MEJORAS
+Sketchy Guy=Tipo Raro
+SKETCHY GUY (SUSPICIOUS ITEMS & MORE)=TIPO RARO (OBJETOS TURBIOS)
+Smoking=Fumando
+Steam Achievement=Logro de Steam
+Steam Build=Version de Steam
+Steam: Connected=Steam: Conectado
+Straight Flush=Escalera de color
+switch=cambiar
+SYSTEM=SISTEMA
+target=objetivo
+Teleport to=Teletransportar a
+TenWick Plaza=Plaza TenWick
+Test=Prueba
+The leap  of faith=El salto de fe
+this save=esta partida
+Three of a Kind=Trio
+Ticket Reward=Recompensa de Tickets
+Time limit expired=Tiempo agotado
+to pick up=para recoger
+Toggle=Alternar
+TUTORIAL=TUTORIAL
+Two Pair=Dobles Parejas
+Uh oh, you lost sucka.=Vaya, perdiste, pringao.
+Unlock All Cosmetics=Desbloquear todo
+Update=Actualizar
+Upgrade=Mejorar
+Version:=Version:
+Waiting...=Esperando...
+Warning=Aviso
+we messed up.=la pifiamos.
+Win with hand value=Gana con valor de mano
+Windowed Fullscreen=Ventana sin bordes
+Winner winner Chicken Dinner=¡Cena, cena, pollo para la cena!
+wıth your=con tus
+without locking cards=sin bloquear cartas
+You win this time.=Ganas esta vez.
+
+## OBJETOS DE SUERTE Y TIENDA ##
+Mystery Box=Caja Misteriosa
+Luck=Suerte
+Unlucky=Mala suerte
+Lotto Ticket=Ticket de Loteria
+Golden Ticket=Ticket Dorado
+Scratch Card=Rasca y Gana
+Mystery Dice=Dado Misterioso
+Loaded Dice=Dado Cargado
+Double or Nothing=Doble o Nada
+Weight=Peso
+Value=Valor
+Rarity=Rareza
+Common=Comun
+Uncommon=Poco Comun
+Rare=Raro
+Epic=Epico
+Legendary=Legendario
+Exotic=Exotico
+Artifact=Artefacto
+
+## DETALLES DE OBJETOS (DESCRIPCIONES) ##
+A mysterious box that contains a random item.=Una caja misteriosa que contiene un objeto al azar.
+What could be inside?=¿Que habra dentro?
+A simple ticket for the lottery.=Un ticket sencillo para la loteria.
+Good luck!=¡Buena suerte!
+You feel lucky just by holding it.=Te sientes con suerte solo con sostenerlo.
+May contain rare treasures.=Puede contener tesoros raros.
+It smells like cardboard and gambling.=Huele a carton y apuestas.
+A risky bet, but it might pay off.=Una apuesta arriesgada, pero podria valer la pena.
+The odds are in your favor.=Las probabilidades estan a tu favor.
+The house always wins... or does it?=La casa siempre gana... ¿o no?
+Increases your luck for a short time.=Aumenta tu suerte por poco tiempo.
+A strange artifact found in the casino.=Un extraño artefacto hallado en el casino.
+It's glowing with an eerie light.=Brilla con una luz inquietante.
+
+## ESTADOS Y DETALLES ##
+LUCK INCREASED=SUERTE AUMENTADA
+LUCK DECREASED=SUERTE REDUCIDA
+Double the stakes!=¡Dobla la apuesta!
+All or nothing.=Todo o nada.
+Item Level=Nivel de Objeto
+Item Rank=Rango de Objeto
+Sell Price=Precio de Venta
+Buy Price=Precio de Compra
+
+## REGEX PARA DESAFIOS DINAMICOS ##
+r:"^Win ([\s\S]+?) games$"=Gana $1 juegos
+r:"^Lose ([\s\S]+?) games$"=Pierde $1 juegos
+r:"^Bet a total of ([\s\S]+?)$"=Apuesta un total de $1
+r:"^Collect ([\s\S]+?) items$"=Recoge $1 objetos
+r:"^Complete ([\s\S]+?) rounds$"=Completa $1 rondas
