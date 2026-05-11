@@ -2,7 +2,7 @@
   "name": "Spanish_Translation",
   "version_number": "1.0.0",
   "website_url": "https://github.com/MyFiurerJose/GWYF-Spanish-Translation",
-  "description": "Traduccion al español para Gamble With Your Friends usando XUnity.AutoTranslator y luego corrigiendola manualmente.",
+  "description": "Traducción al español para Gamble With Your Friends. Se agradecería cualquier ayuda para mejorar la traducción, ya que no soy un traductor profesional. Contribuciones bienvenidas.",
   "dependencies": [
     "Hayrizan-XUnity_AutoTranslator-5.6.1"
   ]
