@@ -1,9 +1,0 @@
-{
-  "name": "Spanish_Translation",
-  "version_number": "1.0.0",
-  "website_url": "https://github.com/MyFiurerJose",
-  "description": "Traduccion al español para Gamble With Your Friends usando XUnity.AutoTranslator y luego corrigiendola manualmente.",
-  "dependencies": [
-    "Hayrizan-XUnity_AutoTranslator-5.6.1"
-  ]
-}
