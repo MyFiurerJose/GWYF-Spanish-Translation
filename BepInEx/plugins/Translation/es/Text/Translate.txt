@@ -1,4 +1,5 @@
-﻿###RTLC###
+﻿###CREADO POR MyFiurerJose###
+
 r:<noparse></noparse>(.+)=<noparse></noparse>$1
 
 ##INICIO Y CARGA##
