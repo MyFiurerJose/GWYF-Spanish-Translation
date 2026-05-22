@@ -1,4 +1,4 @@
-﻿###RTLC###
+﻿###Traduccion by MyFiurerJose###
 r:<noparse></noparse>(.+)=<noparse></noparse>$1
 
 ##INICIO Y CARGA##
